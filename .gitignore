@@ -1,0 +1,25 @@
+# Python virtual environment
+Code/env/
+env/
+venv/
+ENV/
+
+# Model files (large files)
+*.h5
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Uploaded files
+static/uploads/*
+!static/uploads/.gitkeep
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db

@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Load your pretrained model
-model = load_model('D:\\Project\\mini_project(5th_Sem)\\chest_xray_vgg16.h5')
+model = load_model(r'C:\Users\Sai Nithin\OneDrive\Documents\Pneumonia-Detection-using-Deep-Learning\Pneumonia-Detection-using-Deep-Learning\chest_xray_vgg16.h5')
 
 # Directory to save uploaded files
 UPLOAD_FOLDER = os.path.join(os.getcwd(), 'static', 'uploads')
